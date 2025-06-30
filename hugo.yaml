@@ -2,7 +2,3 @@ baseURL: https://enzodelmachio.github.io/PixWed_Docs/
 languageCode: pt-br
 title: My New Hugo Site
 theme: hextra
-
-[params]
-  author = "Enzo Delmachio"
-  description = "University Extension Program Docs"
