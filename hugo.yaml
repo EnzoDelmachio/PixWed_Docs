@@ -1,4 +1,40 @@
-baseURL: https://enzodelmachio.github.io/PixWed_Docs/
-languageCode: pt-br
-title: My New Hugo Site
-theme: hextra
+baseURL: "https://enzodelmachio.github.io/PixWed_Docs/"
+languageCode: "pt-br"
+title: "PixWed_Docs"
+theme: "hextra"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: "github"
+    lineNos: true
+
+params:
+  description: "PixWed_Docs"
+  
+  navbar:
+    displayTitle: true
+    displayLogo: false
+  
+  footer:
+    enable: true
+    copyright: "UniFil, 2025."
+
+menu:
+  main:
+    - identifier: "home"
+      name: "Home"
+      pageRef: "/"
+      weight: 1
+
+    - identifier: "docs"
+      name: "Documentação"
+      pageRef: "/docs"
+      weight: 2
+    
+    - identifier: "reports"
+      name: "Relatórios"
+      pageRef: "/reports"
+      weight: 3
