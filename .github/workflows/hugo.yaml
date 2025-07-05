@@ -4,7 +4,7 @@ name: Deploy Hugo site to Pages
 on:
   # Executa no push para a branch main
   push:
-    branches: ["main"]
+    branches: ["master"]
 
   # Permite executar manualmente
   workflow_dispatch:
