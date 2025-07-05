@@ -1,7 +1,7 @@
 ---
 title: ''
 date: '2025-06-29T23:05:33-03:00'
-draft: true
+draft: false
 weight: 1
 ---
 ### Documentação 01
